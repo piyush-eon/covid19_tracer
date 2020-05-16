@@ -14,6 +14,13 @@ body {
   margin-top: 10px;
   margin-bottom: 10px;
 }
+p {
+  font-family: cursive;
+  padding: 10px;
+}
+a {
+  color: red;
+}
 
 @media (max-width: 770px) {
   .container {
@@ -22,5 +29,8 @@ body {
 
   .image {
     width: 95%;
+  }
+  p {
+    font-size: small;
   }
 }

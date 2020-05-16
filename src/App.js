@@ -30,6 +30,10 @@ class App extends React.Component {
         <Cards data={data} />
         <CountryPicker handleCountryChange={this.handleCountryChange} />
         <Chart data={data} country={country} />
+        <p>
+          🔥 Made by{" "}
+          <a href="https://www.instagram.com/piyush_eon">Piyush_eon</a> 🔥
+        </p>
       </div>
     );
   }
